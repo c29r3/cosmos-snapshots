@@ -19,7 +19,7 @@ sudo apt update && \
 sudo apt install curl git docker.io -y
 ```
 
-Clone github repo 
+Clone github repo  
 `git clone https://github.com/c29r3/cosmos-snapshots.git && cd cosmos-snapshots`  
 
 Create folder for snapshots  
