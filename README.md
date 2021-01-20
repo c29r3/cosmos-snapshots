@@ -3,12 +3,25 @@ Snapshots for Akash Network can be found here
 http://135.181.60.250/akash  
 
 ## Download latest snapshot  
+Stop Akash service  
+`systemctl stop akash.service`  
+
+Go to directory `~/.akashd/data`  
+`cd ~/.akashd/data`
+
+Remove all data in this directory  
+`rm -r *`
+
+Download snapshot  
 ```bash
-SNAP_NAME=$(curl -s http://${IP}/akash/ | egrep -o ">akashnet.*tar" | tr -d ">"); \
-systemctl stop akash.service; \
-cd ~/.akashd/data; \
-rm -rf *; \
+SNAP_NAME=$(curl -s http://135.181.60.250/akash/ | egrep -o ">akashnet.*tar" | tr -d ">"); \
 wget -O - http://135.181.60.250/akash/${SNAP_NAME} | tar xf -
+```
+
+Start service and check logs  
+```
+systemctl start akash.service; \
+journalctl -u akash.service -f --no-hostname
 ```
 
 
