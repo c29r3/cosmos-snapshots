@@ -17,6 +17,7 @@ Download snapshot
 SNAP_NAME=$(curl -s http://135.181.60.250/akash/ | egrep -o ">akashnet.*tar" | tr -d ">"); \
 wget -O - http://135.181.60.250/akash/${SNAP_NAME} | tar xf -
 ```
+![alt text](https://github.com/c29r3/cosmos-snapshots/blob/main/2021-01-20_14-19.png?raw=true)
 
 Start service and check logs  
 ```
