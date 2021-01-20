@@ -6,11 +6,12 @@ http://135.181.60.250/akash
 Stop Akash service  
 `systemctl stop akash.service`  
 
-Go to directory `~/.akashd/data`  
-`cd ~/.akashd/data`
-
-Remove all data in this directory  
-`rm -r *`
+Remove old data in directory `~/.akashd/data`  
+```
+rm -rf ~/.akashd/data; \
+mkdir -p ~/.akashd/data; \
+cd ~/.akashd/data
+```
 
 Download snapshot  
 ```bash
