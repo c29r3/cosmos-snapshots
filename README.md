@@ -47,3 +47,6 @@ Check snapshot
 MY_IP=$(curl -s 2ip.ru); \
 curl -s http://${MY_IP}
 ```
+
+## Automation  
+You can add script to the cron  
