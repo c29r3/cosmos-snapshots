@@ -66,5 +66,5 @@ curl -s http://${MY_IP}
 You can add script to the cron  
 ```cron
 # start every day at 00:00
-0 0 * * * /root/akash_snapshot.sh
+0 0 * * * /bin/bash -c '/root/akash_snapshot.sh'
 ```
