@@ -64,3 +64,7 @@ curl -s http://${MY_IP}
 
 ## Automation  
 You can add script to the cron  
+```cron
+# start every day at 00:00
+0 0 * * * /root/akash_snapshot.sh
+```
