@@ -4,6 +4,7 @@ SNAP_PATH="/root/akash/akash"
 LOG_PATH="/root/akash/akash_log.txt"
 DATA_PATH="/root/.akashd/data/"
 SERVICE_NAME="akash.service"
+RPC_ADDRESS="http://localhost:26657"
 SNAP_NAME=$(echo "${CHAIN_ID}_$(date '+%Y-%m-%d').tar")
 OLD_SNAP=$(ls ${SNAP_PATH} | egrep -o "${CHAIN_ID}.*tar")
 
@@ -20,6 +21,8 @@ log_this() {
     printf "|$(now_date)| $logging\n" | tee -a ${LOG_PATH}
 }
 
+LAST_BLOCK_HEIGHT=$(curl -s ${RPC_ADDRESS}/status | jq -r .result.sync_info.latest_block_height)
+log_this "LAST_BLOCK_HEIGHT ${LAST_BLOCK_HEIGHT}" &>>${LOG_PATH}
 
 log_this "Stopping ${SERVICE_NAME}"
 systemctl stop ${SERVICE_NAME}; echo $? >> ${LOG_PATH}
