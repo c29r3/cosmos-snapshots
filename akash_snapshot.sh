@@ -22,7 +22,7 @@ log_this() {
 }
 
 LAST_BLOCK_HEIGHT=$(curl -s ${RPC_ADDRESS}/status | jq -r .result.sync_info.latest_block_height)
-log_this "LAST_BLOCK_HEIGHT ${LAST_BLOCK_HEIGHT}" &>>${LOG_PATH}
+log_this "LAST_BLOCK_HEIGHT ${LAST_BLOCK_HEIGHT}"
 
 log_this "Stopping ${SERVICE_NAME}"
 systemctl stop ${SERVICE_NAME}; echo $? >> ${LOG_PATH}
