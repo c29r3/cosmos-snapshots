@@ -3,7 +3,7 @@ List of snapshots:
 http://135.181.60.250/      - Akash Network Mainnet  
 http://135.181.60.250:8081/ - Sifchain Betanet  
 
-## Download latest snapshot  
+## Download latest snapshot (using the example of Akash)  
 Stop Akash service  
 `systemctl stop akash.service`  
 
