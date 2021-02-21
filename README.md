@@ -1,5 +1,5 @@
 # cosmos-snapshots  
-Snapshots for Akash Network can be found here  
+List of snapshots:   
 http://135.181.60.250/      - Akash Network Mainnet  
 http://135.181.60.250:8081/ - Sifchain Betanet  
 
