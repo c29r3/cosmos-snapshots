@@ -42,7 +42,8 @@ Create folder for snapshots
 
 Start Nginx via docker  
 ```bash
-docker run --name nginx -v /root/cosmos-snapshots/default.conf:/etc/nginx/conf.d/default.conf -v /root/akash/:/root/ -p 80:80 -d nginx
+cd $HOME; \
+docker run --name nginx -v $(pwd)/cosmos-snapshots/default.conf:/etc/nginx/conf.d/default.conf -v $(pwd)/akash/:/root/ -p 80:80 -d nginx
 ```
 
 Fill in the variables in the file `akash_snapshot.sh`  
