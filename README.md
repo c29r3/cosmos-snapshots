@@ -49,9 +49,9 @@ docker run --name nginx -v $(pwd)/cosmos-snapshots/default.conf:/etc/nginx/conf.
 Fill in the variables in the file `akash_snapshot.sh`  
 ```
 CHAIN_ID="akashnet-1"
-SNAP_PATH="/root/akash/akash"
-LOG_PATH="/root/akash/akash_log.txt"
-DATA_PATH="/root/.akashd/data/"
+SNAP_PATH="$HOME/akash/akash"
+LOG_PATH="$HOME/akash/akash_log.txt"
+DATA_PATH="$HOME/.akashd/data/"
 SERVICE_NAME="akash.service"
 ```
 Create new snapshot  
