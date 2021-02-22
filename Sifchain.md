@@ -19,5 +19,5 @@ wget -O - http://135.181.60.250:8081/sifchain/${SNAP_NAME} | tar xf -
 Start service and check logs  
 ```
 systemctl start sifchain.service; \
-journalctl -u akash.service -f --no-hostname
+journalctl -u sifchain.service -f --no-hostname
 ```
