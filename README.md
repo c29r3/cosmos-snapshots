@@ -3,29 +3,8 @@ List of snapshots:
 http://135.181.60.250/      - Akash Network Mainnet  
 http://135.181.60.250:8081/ - Sifchain Betanet  
 
-## Download latest snapshot (using the example of Akash)  
-Stop Akash service  
-`systemctl stop akash.service`  
-
-Remove old data in directory `~/.akashd/data`  
-```
-rm -rf ~/.akashd/data; \
-mkdir -p ~/.akashd/data; \
-cd ~/.akashd/data
-```
-
-Download snapshot  
-```bash
-SNAP_NAME=$(curl -s http://135.181.60.250/akash/ | egrep -o ">akashnet.*tar" | tr -d ">"); \
-wget -O - http://135.181.60.250/akash/${SNAP_NAME} | tar xf -
-```
-![alt text](https://github.com/c29r3/cosmos-snapshots/blob/main/2021-01-20_14-19.png?raw=true)
-
-Start service and check logs  
-```
-systemctl start akash.service; \
-journalctl -u akash.service -f --no-hostname
-```
+[Akash snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Akash.md)  
+[Sifchain snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sifchain.md)  
 
 
 ## Run your own backup server with snapshots  
