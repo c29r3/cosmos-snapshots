@@ -1,8 +1,8 @@
 #!/bin/bash
 CHAIN_ID="akashnet-1"
-SNAP_PATH="/root/akash/akash"
-LOG_PATH="/root/akash/akash_log.txt"
-DATA_PATH="/root/.akashd/data/"
+SNAP_PATH="$HOME/akash/akash"
+LOG_PATH="$HOME/akash/akash_log.txt"
+DATA_PATH="$HOME/.akashd/data/"
 SERVICE_NAME="akash.service"
 RPC_ADDRESS="http://localhost:26657"
 SNAP_NAME=$(echo "${CHAIN_ID}_$(date '+%Y-%m-%d').tar")
