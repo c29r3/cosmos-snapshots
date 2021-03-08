@@ -28,7 +28,7 @@ docker run --name nginx -v $(pwd)/cosmos-snapshots/default.conf:/etc/nginx/conf.
 
 Fill in the variables in the file `akash_snapshot.sh`  
 ```
-CHAIN_ID="akashnet-1"
+CHAIN_ID="akashnet-2"
 SNAP_PATH="$HOME/akash/akash"
 LOG_PATH="$HOME/akash/akash_log.txt"
 DATA_PATH="$HOME/.akashd/data/"
