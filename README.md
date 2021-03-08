@@ -31,7 +31,7 @@ Fill in the variables in the file `akash_snapshot.sh`
 CHAIN_ID="akashnet-2"
 SNAP_PATH="$HOME/akash/akash"
 LOG_PATH="$HOME/akash/akash_log.txt"
-DATA_PATH="$HOME/.akashd/data/"
+DATA_PATH="$HOME/.akash/data/"
 SERVICE_NAME="akash.service"
 ```
 Create new snapshot  
