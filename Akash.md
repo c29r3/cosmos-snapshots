@@ -2,11 +2,11 @@
 Stop Akash service  
 `systemctl stop akash.service`  
 
-Remove old data in directory `~/.akashd/data`  
+Remove old data in directory `~/.akash/data`  
 ```
-rm -rf ~/.akashd/data; \
-mkdir -p ~/.akashd/data; \
-cd ~/.akashd/data
+rm -rf ~/.akash/data; \
+mkdir -p ~/.akash/data; \
+cd ~/.akash/data
 ```
 
 Download snapshot  
