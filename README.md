@@ -6,7 +6,7 @@ http://135.181.60.250:8082/ - Agoric testnet (agorictest-7)
 
 [Akash snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Akash.md)  
 [Sifchain snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sifchain.md)  
-[Sifchain snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Agoric.md) 
+[Agoric snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Agoric.md) 
 
 
 ## Run your own backup server with snapshots  
