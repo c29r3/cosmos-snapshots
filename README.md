@@ -1,3 +1,5 @@
+**On the server with snapshot, both disks failed at once. After some time, I will restore the service with snapshots**
+
 # cosmos-snapshots  
 List of snapshots:   
 http://135.181.60.250/      - Akash Network (Mainnet)  
