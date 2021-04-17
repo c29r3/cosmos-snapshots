@@ -2,7 +2,7 @@
 List of snapshots:   
 http://135.181.60.250/      - Akash Network (Mainnet)  
 http://135.181.60.250:8081/ - Sifchain (Betanet)  
-http://135.181.60.250:8082/ - Agoric testnet (agorictest-7)  
+http://135.181.60.250:8082/ - Agoric testnet (agorictest-9)  
 
 [Akash snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Akash.md)  
 [Sifchain snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sifchain.md)  
