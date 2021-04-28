@@ -1,6 +1,6 @@
 ## Download latest snapshot (using the example of Sifchain)  
-Stop Akash service  
-`systemctl stop sifchain.service`  
+Stop service  
+`systemctl stop ag-chain-cosmos.service`  
 
 Remove old data in directory `~/.ag-chain-cosmos/data/`  
 ```
