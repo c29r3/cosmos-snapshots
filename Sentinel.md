@@ -1,5 +1,5 @@
 ## Download latest snapshot (using the example of Sentinel)  
-Stop Akash service  
+Stop Sentinel service  
 `systemctl stop sentinel.service`  
 
 Remove old data in directory `~/.sentinelhubd/data/`  
