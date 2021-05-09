@@ -1,4 +1,4 @@
-## Download latest snapshot (using the example of Sifchain)  
+## Download latest snapshot (using the example of Sentinel)  
 Stop Akash service  
 `systemctl stop sentinel.service`  
 
