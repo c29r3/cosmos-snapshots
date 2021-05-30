@@ -2,11 +2,11 @@
 Stop Sentinel service  
 `systemctl stop sentinel.service`  
 
-Remove old data in directory `~/.sentinelhubd/data/`  
+Remove old data in directory `~/.sentinelhub/data/`  
 ```
-rm -rf ~/.sentinelhubd/data/; \
-mkdir -p ~/.sentinelhubd/data/; \
-cd ~/.sentinelhubd/data/
+rm -rf ~/.sentinelhub/data/; \
+mkdir -p ~/.sentinelhub/data/; \
+cd ~/.sentinelhub/data/
 ```
 
 Download snapshot  
