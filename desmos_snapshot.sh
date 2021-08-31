@@ -1,8 +1,8 @@
 #!/bin/bash
 CHAIN_ID="akashnet-2"
 SNAP_PATH="$HOME/desmos/desmos"
-LOG_PATH="$HOME//desmos/desmos_log.txt"
-DATA_PATH="$HOME//.desmos/data/"
+LOG_PATH="$HOME/desmos/desmos_log.txt"
+DATA_PATH="$HOME/.desmos/data/"
 SERVICE_NAME="desmos.service"
 RPC_ADDRESS="http://135.181.60.250:26557"
 SNAP_NAME=$(echo "${CHAIN_ID}_$(date '+%Y-%m-%d').tar")
