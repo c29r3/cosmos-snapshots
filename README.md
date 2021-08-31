@@ -10,6 +10,9 @@ http://135.181.60.250:8084/ - Desmos (Mainnet)
 [Sentinel snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sentinel.md)  
 [Desmos snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Desmos.md)  
 
+## MIRRORS  
+http://rpc01-skynet.paullovette.com/  
+
 
 ## Run your own backup server with snapshots  
 Install requirements  
