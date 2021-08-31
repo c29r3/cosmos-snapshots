@@ -32,7 +32,7 @@ Start Nginx via docker
 cd $HOME; \
 docker run --name nginx \
 --restart always \
--v $(pwd)/cosmos-snapshots/default.conf:/etc/nginx/conf.d/default.conf \
+-v $(pwd)/default.conf:/etc/nginx/conf.d/default.conf \
 -v $(pwd)/akash/:/root/ \
 -p 80:80 \
 -d nginx
