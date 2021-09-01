@@ -1,5 +1,5 @@
 #!/bin/bash
-CHAIN_ID="akashnet-2"
+CHAIN_ID="desmos-mainnet"
 SNAP_PATH="$HOME/desmos/desmos"
 LOG_PATH="$HOME/desmos/desmos_log.txt"
 DATA_PATH="$HOME/.desmos/data/"
