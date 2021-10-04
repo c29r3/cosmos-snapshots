@@ -5,12 +5,14 @@ http://135.181.60.250:8081/ - Sifchain (Betanet)
 http://135.181.60.250:8083/ - Sentinel (Mainnet)  
 http://135.181.60.250:8084/ - Desmos (Mainnet)  
 http://135.181.60.250:8085/ - Osmosis (Mainnet)  
+http://135.181.60.250:8086/ - Bitcanna (Mainnet)  
 
 [Akash snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Akash.md)  
 [Sifchain snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sifchain.md)  
 [Sentinel snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sentinel.md)  
 [Desmos snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Desmos.md)  
 [Osmosis snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Osmosis.md) 
+[Bitcanna snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Bitcanna.md) 
 
 ## MIRRORS  
 http://rpc01-skynet.paullovette.com/  
