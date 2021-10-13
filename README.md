@@ -18,8 +18,8 @@ http://95.216.45.250:8081/  - Oasis (Mainnet) provided by Bambarello
 
 
 ## MIRRORS  
-http://rpc01-skynet.paullovette.com/  
-https://snapshots.stakecraft.com/  
+http://rpc01-skynet.paullovette.com/ - provided by Paul Lovette  
+https://snapshots.stakecraft.com/    - provided by Alex Novy  
 
 
 ## Run your own backup server with snapshots  
