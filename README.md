@@ -6,7 +6,7 @@ http://135.181.60.250:8083/ - Sentinel (Mainnet)
 http://135.181.60.250:8084/ - Desmos (Mainnet)  
 http://135.181.60.250:8085/ - Osmosis (Mainnet)  
 http://135.181.60.250:8086/ - Bitcanna (Mainnet)  
-http://95.216.45.250:8081/  - Oasis (Mainnet) provided by Bambarello  
+http://95.216.45.250:8081/  - Oasis (Mainnet)  
 https://snapshots.stakecraft.com/ - Juno (Mainnet)  
 
 [Akash snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Akash.md)  
@@ -21,6 +21,7 @@ https://snapshots.stakecraft.com/ - Juno (Mainnet)
 ## MIRRORS  
 http://rpc01-skynet.paullovette.com/ - provided by Paul Lovette  
 https://snapshots.stakecraft.com/    - provided by Alex Novy  
+http://95.216.45.250:8081/  - provided by Bambarello  
 
 
 ## Run your own backup server with snapshots  
