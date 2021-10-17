@@ -1,4 +1,4 @@
-## Download latest snapshot (using the example of Bitcanna)  
+## Download latest snapshot (using the example of Oasis)  
 Stop Oasis service  
 `systemctl stop oasis.service`  
 

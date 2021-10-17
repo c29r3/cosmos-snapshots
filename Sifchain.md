@@ -1,5 +1,5 @@
 ## Download latest snapshot (using the example of Sifchain)  
-Stop Akash service  
+Stop Sifchain service  
 `systemctl stop sifchain.service`  
 
 Remove old data in directory `~/.sifnoded/data`  

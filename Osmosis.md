@@ -1,4 +1,4 @@
-## Download latest snapshot (using the example of Sifchain)  
+## Download latest snapshot (using the example of Osmosis)  
 Stop Osmosis service  
 `systemctl stop osmosis.service`  
 
