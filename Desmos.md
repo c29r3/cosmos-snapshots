@@ -1,4 +1,4 @@
-## Download latest snapshot (using the example of Sifchain)  
+## Download latest snapshot (using the example of Desmos)  
 Stop Desmos service  
 `systemctl stop desmos.service`  
 

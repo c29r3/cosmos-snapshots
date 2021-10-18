@@ -8,6 +8,8 @@ http://135.181.60.250:8085/ - Osmosis (Mainnet)
 http://135.181.60.250:8086/ - Bitcanna (Mainnet)  
 http://95.216.45.250:8081/  - Oasis (Mainnet)  
 https://snapshots.stakecraft.com/ - Juno (Mainnet)  
+http://cosmos-snap.staketab.com/ixo - IXO (Mainnet)  
+http://cosmos-snap.staketab.com/medibloc - Medibloc (Mainnet)  
 
 [Akash snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Akash.md)  
 [Sifchain snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sifchain.md)  
@@ -16,12 +18,15 @@ https://snapshots.stakecraft.com/ - Juno (Mainnet)
 [Osmosis snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Osmosis.md)  
 [Bitcanna snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Bitcanna.md)  
 [Oasis snapshot instruction](https://github.com/Bambarello/cosmos-snapshots/blob/main/Oasis.md)  
+[IXO snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/ixo.md)  
+[Medibloc snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/medibloc.md)  
 
 
 ## MIRRORS  
 http://rpc01-skynet.paullovette.com/ - provided by Paul Lovette  
 https://snapshots.stakecraft.com/    - provided by Alex Novy  
 http://95.216.45.250:8081/  - provided by Bambarello  
+http://cosmos-snap.staketab.com/  - provided by Staketab  
 
 
 ## Run your own backup server with snapshots  
