@@ -10,6 +10,21 @@ http://95.216.45.250:8081/  - Oasis (Mainnet)
 https://snapshots.stakecraft.com/ - Juno (Mainnet)  
 http://cosmos-snap.staketab.com/ixo - IXO (Mainnet)  
 http://cosmos-snap.staketab.com/medibloc - Medibloc (Mainnet)  
+https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d
+- juno
+- osmosis
+- agoric
+- regen
+- cosmoshub
+- irishub
+- matic
+- emoney
+- bitsong
+- terra
+- kava
+- certik
+- microtick
+- celo-baklava non-archive
 
 [Akash snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Akash.md)  
 [Sifchain snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sifchain.md)  
@@ -27,6 +42,7 @@ http://rpc01-skynet.paullovette.com/ - provided by Paul Lovette
 https://snapshots.stakecraft.com/    - provided by Alex Novy  
 http://95.216.45.250:8081/  - provided by Bambarello  
 http://cosmos-snap.staketab.com/  - provided by Staketab  
+https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d - provided by Stake Systems  
 
 
 ## Run your own backup server with snapshots  
