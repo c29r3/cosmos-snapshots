@@ -8,8 +8,8 @@ Go to `.../serverdir/node/tendermint/`
 
 Download and immediately unpack snapshot  
 ```bash
-SNAP_NAME=$(curl -s http://95.216.45.250:8081/ | egrep -o ">oasis.*tar" | tr -d ">"); \
-wget -O - http://95.216.45.250:8081/${SNAP_NAME} | tar xzf -
+SNAP_NAME=$(curl -s http://snapshots.alexvalidator.com:8081/ | egrep -o ">oasis.*tar" | tr -d ">"); \
+wget -O - http://snapshots.alexvalidator.com:8081/${SNAP_NAME} | tar xzf -
 ```
 ![alt text](https://github.com/c29r3/cosmos-snapshots/blob/main/2021-01-20_14-19.png?raw=true)
 
