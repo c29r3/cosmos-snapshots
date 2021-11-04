@@ -10,6 +10,8 @@ http://snapshots.alexvalidator.com:8081/  - Oasis (Mainnet)
 https://snapshots.stakecraft.com/ - Juno (Mainnet)  
 http://cosmos-snap.staketab.com/ixo - IXO (Mainnet)  
 http://cosmos-snap.staketab.com/medibloc - Medibloc (Mainnet)  
+http://cosmos-snap.staketab.com/stargaze - Stargaze (Mainnet)  
+
 https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d
 - juno
 - osmosis
@@ -35,6 +37,7 @@ https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d2
 [Oasis snapshot instruction](https://github.com/Bambarello/cosmos-snapshots/blob/main/Oasis.md)  
 [IXO snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/ixo.md)  
 [Medibloc snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/medibloc.md)  
+[Stargaze snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/stargaze.md)  
 
 
 ## MIRRORS  
