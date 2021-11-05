@@ -1,6 +1,7 @@
 # cosmos-snapshots  
 List of snapshots:   
 http://135.181.60.250/      - Akash Network (Mainnet)  
+http://162.255.116.68/snapshots/ - Akash Network (Mainnet)  
 http://135.181.60.250:8081/ - Sifchain (Betanet)  
 http://135.181.60.250:8083/ - Sentinel (Mainnet)  
 http://135.181.60.250:8084/ - Desmos (Mainnet)  
@@ -42,6 +43,7 @@ https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d2
 
 ## MIRRORS  
 http://rpc01-skynet.paullovette.com/ - provided by Paul Lovette  
+http://162.255.116.68/snapshots/ - privded by Min (Min#6706)  
 https://snapshots.stakecraft.com/    - provided by Alex Novy  
 http://snapshots.alexvalidator.com:8081/  - provided by Bambarello  
 http://cosmos-snap.staketab.com/  - provided by Staketab  
