@@ -1,7 +1,7 @@
 ## Install Aria2
 ## https://aria2.github.io/
 
-sudo apt-get install aria2 -y
+sudo apt-get install wget -y
 
 ## Download latest snapshot (using the example of Sentinel)  
 Stop Sentinel service  
@@ -17,7 +17,7 @@ cd ~/.sentinelhub/data/
 Download snapshot  
 ```bash
 SNAP_NAME=$(curl -s http://135.181.60.250:8083/sentinel/ | egrep -o ">sentinelhub-2.*tar" | tr -d ">"); \
-aria2c -x2 http://135.181.60.250:8083/sentinel/${SNAP_NAME} | tar xf -
+wget -O - http://135.181.60.250:8083/sentinel/${SNAP_NAME} | tar xf -
 ```
 ![alt text](https://github.com/c29r3/cosmos-snapshots/blob/main/2021-01-20_14-19.png?raw=true)
 
