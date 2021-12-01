@@ -1,3 +1,8 @@
+## Install Aria2
+## https://aria2.github.io/
+
+sudo apt-get install wget -y
+
 ## Download latest snapshot (using the example of Sentinel)  
 Stop Sentinel service  
 `systemctl stop sentinel.service`  

@@ -1,15 +1,17 @@
 # cosmos-snapshots  
 List of snapshots:   
 http://135.181.60.250/      - Akash Network (Mainnet)  
+http://162.255.116.68/snapshots/ - Akash Network (Mainnet)  
 http://135.181.60.250:8081/ - Sifchain (Betanet)  
 http://135.181.60.250:8083/ - Sentinel (Mainnet)  
 http://135.181.60.250:8084/ - Desmos (Mainnet)  
-http://135.181.60.250:8085/ - Osmosis (Mainnet)  
 http://135.181.60.250:8086/ - Bitcanna (Mainnet)  
 http://snapshots.alexvalidator.com:8081/  - Oasis (Mainnet)  
 https://snapshots.stakecraft.com/ - Juno (Mainnet)  
 http://cosmos-snap.staketab.com/ixo - IXO (Mainnet)  
 http://cosmos-snap.staketab.com/medibloc - Medibloc (Mainnet)  
+http://cosmos-snap.staketab.com/stargaze - Stargaze (Mainnet)  
+
 https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d
 - juno
 - osmosis
@@ -30,15 +32,16 @@ https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d2
 [Sifchain snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sifchain.md)  
 [Sentinel snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sentinel.md)  
 [Desmos snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Desmos.md)  
-[Osmosis snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Osmosis.md)  
 [Bitcanna snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Bitcanna.md)  
 [Oasis snapshot instruction](https://github.com/Bambarello/cosmos-snapshots/blob/main/Oasis.md)  
 [IXO snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/ixo.md)  
 [Medibloc snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/medibloc.md)  
+[Stargaze snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/stargaze.md)  
 
 
 ## MIRRORS  
 http://rpc01-skynet.paullovette.com/ - provided by Paul Lovette  
+http://162.255.116.68/snapshots/ - privded by Min (Min#6706)  
 https://snapshots.stakecraft.com/    - provided by Alex Novy  
 http://snapshots.alexvalidator.com:8081/  - provided by Bambarello  
 http://cosmos-snap.staketab.com/  - provided by Staketab  
