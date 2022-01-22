@@ -5,6 +5,7 @@ http://162.255.116.68/snapshots/ - Akash Network (Mainnet)
 http://135.181.60.250:8081/ - Sifchain (Betanet)  
 http://135.181.60.250:8083/ - Sentinel (Mainnet)  
 http://135.181.60.250:8084/ - Desmos (Mainnet)  
+http://135.181.60.250:8085/ - Osmosis (Mainnet)  
 http://snapshots.alexvalidator.com/oasis/ - Oasis (Mainnet)    
 http://snapshots.alexvalidator.com/ixo/ - IXO (Mainnet)   
 https://snapshots.stakecraft.com/ - Juno (Mainnet)  
@@ -37,6 +38,7 @@ https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d2
 [IXO snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/ixo.md)  
 [Medibloc snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/medibloc.md)  
 [Stargaze snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/stargaze.md)  
+[Osmosis snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Osmosis.md) 
 [Kichain snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/kichain.md)  
 
 ## MIRRORS  
