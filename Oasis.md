@@ -9,7 +9,7 @@ Go to `.../serverdir/node/tendermint/`
 Download and immediately unpack snapshot  
 ```bash
 SNAP_NAME=$(curl -s http://snapshots.alexvalidator.com/oasis/ | egrep -o ">oasis.*tar" | tr -d ">"); \
-wget -O - http://snapshots.alexvalidator.com:8081/${SNAP_NAME} | tar xf -
+wget -O - http://snapshots.alexvalidator.com/oasis/${SNAP_NAME} | tar xf -
 ```
 Start service and check logs  
 ```
