@@ -1,7 +1,6 @@
 # cosmos-snapshots  
 List of snapshots:   
 http://135.181.60.250/      - Akash Network (Mainnet)  
-http://162.255.116.68/snapshots/ - Akash Network (Mainnet)  
 http://135.181.60.250:8081/ - Sifchain (Betanet)  
 http://135.181.60.250:8083/ - Sentinel (Mainnet)  
 http://135.181.60.250:8084/ - Desmos (Mainnet)  
