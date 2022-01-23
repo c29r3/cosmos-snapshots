@@ -13,22 +13,6 @@ http://cosmos-snap.staketab.com/medibloc - Medibloc (Mainnet)
 http://cosmos-snap.staketab.com/stargaze - Stargaze (Mainnet)  
 https://mercury-nodes.net/kichain-snaps/ - Kichain (Mainnet)
 
-https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d
-- juno
-- osmosis
-- agoric
-- regen
-- cosmoshub
-- irishub
-- matic
-- emoney
-- bitsong
-- terra
-- kava
-- certik
-- microtick
-- celo-baklava non-archive
-
 [Akash snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Akash.md)  
 [Sifchain snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sifchain.md)  
 [Sentinel snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sentinel.md)  
@@ -47,6 +31,21 @@ https://snapshots.stakecraft.com/    - provided by Alex Novy
 http://snapshots.alexvalidator.com:8081/  - provided by Bambarello  
 http://cosmos-snap.staketab.com/  - provided by Staketab  
 https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d - provided by Stake Systems  
+https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d  
+- juno
+- osmosis
+- agoric
+- regen
+- cosmoshub
+- irishub
+- matic
+- emoney
+- bitsong
+- terra
+- kava
+- certik
+- microtick
+- celo-baklava non-archive
 
 
 ## Run your own backup server with snapshots  
