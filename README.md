@@ -30,7 +30,6 @@ http://162.255.116.68/snapshots/ - privded by Min (Min#6706)
 https://snapshots.stakecraft.com/    - provided by Alex Novy  
 http://snapshots.alexvalidator.com:8081/  - provided by Bambarello  
 http://cosmos-snap.staketab.com/  - provided by Staketab  
-https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d - provided by Stake Systems  
 https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d  
 - juno
 - osmosis
