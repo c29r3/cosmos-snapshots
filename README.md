@@ -1,11 +1,11 @@
 # cosmos-snapshots  
 List of snapshots:   
-http://135.181.60.250/      - Akash Network (Mainnet)  
-http://135.181.60.250:8081/ - Sifchain (Betanet)  
-http://135.181.60.250:8083/ - Sentinel (Mainnet)  
+http://135.181.60.250/      - Akash Network (Mainnet) truncated via statesync  
+http://135.181.60.250:8081/ - Sifchain (Betanet) truncated via statesync  
+http://135.181.60.250:8083/ - Sentinel (Mainnet truncated via statesync   
 http://135.181.60.250:8084/ - Desmos (Mainnet)  
-http://135.181.60.250:8085/ - Osmosis (Mainnet)  
-http://135.181.60.250:8086/ - Stargaze (Mainnet)  
+http://135.181.60.250:8085/ - Osmosis (Mainnet) truncated via statesync  
+http://135.181.60.250:8086/ - Stargaze (Mainnet) truncated via statesync  
 http://snapshots.alexvalidator.com/oasis/ - Oasis (Mainnet)    
 http://snapshots.alexvalidator.com/ixo/ - IXO (Mainnet)   
 https://snapshots.stakecraft.com/ - Juno (Mainnet)  
