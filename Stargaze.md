@@ -11,7 +11,7 @@ cd ~/.starsd/data
 
 Download snapshot  
 ```bash
-SNAP_NAME=$(curl -s http://135.181.60.250:8086/osmosis/ | egrep -o ">starsd.*tar" | tr -d ">"); \
+SNAP_NAME=$(curl -s http://135.181.60.250:8086/stargaze/ | egrep -o ">starsd.*tar" | tr -d ">"); \
 wget -O - http://135.181.60.250:8086/starsd/${SNAP_NAME} | tar xf -
 ```
 ![alt text](https://github.com/c29r3/cosmos-snapshots/blob/main/2021-01-20_14-19.png?raw=true)
