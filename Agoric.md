@@ -4,9 +4,9 @@ Stop Agoric service
 
 Remove old data in directory `~/.ag0/data`  
 ```
-rm -rf ~/.ag0/data; \
-mkdir -p ~/.ag0/data; \
-cd ~/.ag0/data
+rm -rf ~/.agoric/data; \
+mkdir -p ~/.agoric/data; \
+cd ~/.agoric/data
 ```
 
 Download snapshot  
