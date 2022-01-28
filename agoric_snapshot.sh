@@ -2,7 +2,7 @@
 CHAIN_ID="agoric-3"
 SNAP_PATH="/root/agoric/agoric"
 LOG_PATH="/root/agoric/agoric_log.txt"
-DATA_PATH="/root/.ag0/data/"
+DATA_PATH="/root/.agoric/data/"
 SERVICE_NAME="agoricd.service"
 RPC_ADDRESS="http://localhost:22657"
 SNAP_NAME=$(echo "${CHAIN_ID}_$(date '+%Y-%m-%d').tar")
