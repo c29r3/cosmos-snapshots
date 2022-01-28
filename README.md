@@ -6,6 +6,7 @@ http://135.181.60.250:8083/ - Sentinel (Mainnet truncated via statesync
 http://135.181.60.250:8084/ - Desmos (Mainnet)  
 http://135.181.60.250:8085/ - Osmosis (Mainnet) truncated via statesync  
 http://135.181.60.250:8086/ - Stargaze (Mainnet) truncated via statesync  
+http://135.181.60.250:8087/ - Agoric (Mainnet) # will be available 29.01.2022  
 http://snapshots.alexvalidator.com/oasis/ - Oasis (Mainnet)    
 http://snapshots.alexvalidator.com/ixo/ - IXO (Mainnet)   
 https://snapshots.stakecraft.com/ - Juno (Mainnet)  
