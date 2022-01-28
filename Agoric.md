@@ -2,7 +2,7 @@
 Stop Agoric service  
 `sudo ystemctl stop agoricd.service`  
 
-Remove old data in directory `~/.ag0/data`  
+Remove old data in directory `~/.agoric/data`  
 ```
 rm -rf ~/.agoric/data; \
 mkdir -p ~/.agoric/data; \
