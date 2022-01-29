@@ -1,6 +1,6 @@
 ## Download latest snapshot (using the example of Osmosis)  
 Stop Agoric service  
-`sudo ystemctl stop agoricd.service`  
+`sudo systemctl stop agoricd.service`  
 
 Remove old data in directory `~/.agoric/data`  
 ```
@@ -18,6 +18,6 @@ wget -O - http://135.181.60.250:8087/agoric/${SNAP_NAME} | tar xf -
 
 Start service and check logs  
 ```
-sudo systemctl start stargaze.service; \
-sudo journalctl -u stargaze.service -f --no-hostname
+sudo systemctl start agoricd.service; \
+sudo journalctl -u agoricd.service -f --no-hostname
 ```
