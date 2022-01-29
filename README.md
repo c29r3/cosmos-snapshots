@@ -1,5 +1,6 @@
 # cosmos-snapshots  
-# The server (135.181.60.250) is currently unavailable. I am investigating the problem
+# The server (135.181.60.250) is currently unavailable. I am investigating the problem  
+## UPDATE Both NVME drives in RAID1 are broken. Recovery will take from 3 to 5 hours
 List of snapshots:   
 http://135.181.60.250/      - Akash Network (Mainnet) truncated via statesync  
 http://135.181.60.250:8081/ - Sifchain (Betanet) truncated via statesync  
