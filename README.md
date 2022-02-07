@@ -36,6 +36,16 @@ http://162.255.116.68/snapshots/ - privded by Min (Min#6706)
 https://snapshots.stakecraft.com/    - provided by Alex Novy  
 http://snapshots.alexvalidator.com:8081/  - provided by Bambarello  
 https://cosmos-snap.staketab.com/  - provided by Staketab  
+https://snapshots.stake2.me/ - provided by [Danil Ushakov](https://github.com/k0kk0k)  
+- Agoric
+- Akash
+- Certik
+- Gravity bridge
+- IXO
+- Osmosis
+- Sifchain
+- Stargaze
+  
 https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d  
 - juno
 - osmosis
