@@ -8,6 +8,8 @@ http://135.181.60.250:8086/ - Stargaze (Mainnet) truncated via statesync
 http://135.181.60.250:8087/ - Agoric (Mainnet) truncated via statesync  
 http://snapshots.alexvalidator.com/oasis/ - Oasis (Mainnet)    
 http://snapshots.alexvalidator.com/ixo/ - IXO (Mainnet)   
+http://snapshots.alexvalidator.com/regen/ - Regen (Mainnet)   
+http://snapshots.alexvalidator.com/stargaze/ - Stargaze (Mainnet)   
 https://snapshots.stakecraft.com/ - Juno (Mainnet)  
 https://cosmos-snap.staketab.com/ixo - IXO (Mainnet)  
 https://cosmos-snap.staketab.com/stargaze - Stargaze (Mainnet)  
@@ -34,7 +36,11 @@ https://mercury-nodes.net/kichain-snaps/ - Kichain (Mainnet)
 http://rpc01-skynet.paullovette.com/ - provided by Paul Lovette  
 http://162.255.116.68/snapshots/ - privded by Min (Min#6706)  
 https://snapshots.stakecraft.com/    - provided by Alex Novy  
-http://snapshots.alexvalidator.com:8081/  - provided by Bambarello  
+http://snapshots.alexvalidator.com/  - provided by Alex [(Bambarello) Validator](https://github.com/Bambarello)  
+- Oasis
+- Stargaze
+- Regen
+- IXO
 https://cosmos-snap.staketab.com/  - provided by Staketab  
 https://snapshots.stake2.me/ - provided by [Danil Ushakov](https://github.com/k0kk0k)  
 - Agoric
