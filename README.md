@@ -40,8 +40,10 @@ http://snapshots.alexvalidator.com/  - provided by Alex [(Bambarello) Validator]
 - Oasis
 - Stargaze
 - Regen
-- IXO
+- IXO  
+  
 https://cosmos-snap.staketab.com/  - provided by Staketab  
+  
 https://snapshots.stake2.me/ - provided by [Danil Ushakov](https://github.com/k0kk0k)  
 - Agoric
 - Akash
