@@ -6,7 +6,7 @@ http://135.181.60.250:8083/ - Sentinel (Mainnet truncated via statesync
 http://135.181.60.250:8084/ - Desmos (Mainnet) truncated via statesync  
 http://135.181.60.250:8086/ - Stargaze (Mainnet) truncated via statesync  
 http://135.181.60.250:8087/ - Agoric (Mainnet) truncated via statesync  
-http://135.181.60.250:5888/ - Cosmos (Mainnet) truncated via statesync  
+http://135.181.60.250:5888/ - Osmosis (Mainnet) truncated via statesync  
 http://snapshots.alexvalidator.com/oasis/ - Oasis (Mainnet)    
 http://snapshots.alexvalidator.com/ixo/ - IXO (Mainnet)   
 http://snapshots.alexvalidator.com/regen/ - Regen (Mainnet)   
