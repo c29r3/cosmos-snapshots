@@ -11,8 +11,8 @@ cd ~/.osmosisd/data
 
 Download snapshot  
 ```bash
-SNAP_NAME=$(curl -s http://135.181.60.250:8085/osmosis/ | egrep -o ">osmosis.*tar" | tr -d ">"); \
-wget -O - http://135.181.60.250:8085/osmosis/${SNAP_NAME} | tar xf -
+SNAP_NAME=$(curl -s http://135.181.60.250:5888/osmosis/ | egrep -o ">osmosis.*tar" | tr -d ">"); \
+wget -O - http://135.181.60.250:5888/osmosis/${SNAP_NAME} | tar xf -
 ```
 ![alt text](https://github.com/c29r3/cosmos-snapshots/blob/main/2021-01-20_14-19.png?raw=true)
 
