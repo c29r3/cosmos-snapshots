@@ -55,22 +55,6 @@ https://snapshots.stake2.me/ - provided by [Danil Ushakov](https://github.com/k0
 - Osmosis
 - Sifchain
 - Stargaze
-  
-https://www.notion.so/Stake-Systems-Fast-Sync-Service-5cb0dffb78174d3494b93f87d242939d  
-- juno
-- osmosis
-- agoric
-- regen
-- cosmoshub
-- irishub
-- matic
-- emoney
-- bitsong
-- terra
-- kava
-- certik
-- microtick
-- celo-baklava non-archive
 
 
 ## Run your own backup server with snapshots  
