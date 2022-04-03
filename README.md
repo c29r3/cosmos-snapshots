@@ -43,6 +43,7 @@ http://snapshots.alexvalidator.com/  - provided by Alex [(Bambarello) Validator]
 - Stargaze
 - Regen
 - IXO  
+- Sentinel  
   
 https://cosmos-snap.staketab.com/  - provided by Staketab  
   
