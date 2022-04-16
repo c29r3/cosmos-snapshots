@@ -60,6 +60,8 @@ https://snapshots.stake2.me/ - provided by [Danil Ushakov](https://github.com/k0
 - Osmosis
 - Sifchain
 - Stargaze
+
+
 https://snapshot.notional.ventures/ - provided by [Notional](https://github.com/notional-labs)
 - Cosmoshub
 - Osmosis
