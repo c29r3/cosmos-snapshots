@@ -60,6 +60,33 @@ https://snapshots.stake2.me/ - provided by [Danil Ushakov](https://github.com/k0
 - Osmosis
 - Sifchain
 - Stargaze
+https://snapshot.notional.ventures/ - provided by [Notional](https://github.com/notional-labs)
+- Cosmoshub
+- Osmosis
+- Juno
+- Starname
+- Regen
+- Akash
+- Sentinel
+- E-money
+- Terra
+- Ixo
+- Sifchain
+- Likecoin
+- Kichain
+- Cyber
+- Cheqd
+- Stargaze
+- Band
+- Chihuahua
+- Kava
+- Bitcanna
+- Konstellation
+- Omniflixhub
+- Vidulum
+- Provenance
+- Dig
+- Gravity bridge
 
 
 ## Run your own backup server with snapshots  
