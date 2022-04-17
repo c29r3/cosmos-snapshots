@@ -19,8 +19,6 @@ https://cosmos-snap.staketab.com/comdex - Comdex (Mainnet)
 https://cosmos-snap.staketab.com/axelar - Axelar (Mainnet)  
 https://mercury-nodes.net/kichain-snaps/ - Kichain (Mainnet)  
 
-http://135.181.60.250:5889/ - Archway (TESTNET) truncated via statesync  
-
 [Akash snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Akash.md)  
 [Agoric snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Agoric.md)  
 [Sifchain snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sifchain.md)  
@@ -35,8 +33,6 @@ http://135.181.60.250:5889/ - Archway (TESTNET) truncated via statesync
 [Stargaze snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/stargaze.md)  
 [Comdex snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/comdex.md)  
 [Axelar snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/axelar.md)  
-
-[Archway snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Archway.md)   
 
 ## MIRRORS  
 http://rpc01-skynet.paullovette.com/ - provided by Paul Lovette  
