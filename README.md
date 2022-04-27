@@ -85,7 +85,11 @@ https://snapshot.notional.ventures/ - provided by [Notional](https://github.com/
 - Provenance
 - Dig
 - Gravity bridge
-
+- Comdex
+- Cerberus
+- Bitsong
+- AssetMantle
+- FetchAI
 
 ## Run your own backup server with snapshots  
 Install requirements  
