@@ -10,8 +10,7 @@ http://135.181.60.250:8081/ - Sifchain (Betanet) truncated via statesync
 http://135.181.60.250:8083/ - Sentinel (Mainnet truncated via statesync   
 http://135.181.60.250:8084/ - Desmos (Mainnet) truncated via statesync  
 http://135.181.60.250:8086/ - Stargaze (Mainnet) truncated via statesync  
-http://135.181.60.250:8087/ - Agoric (Mainnet) truncated via statesync  
-http://135.181.60.250:5888/ - Osmosis (Mainnet) truncated via statesync  
+http://135.181.60.250:8087/ - Agoric (Mainnet) truncated via statesync   
 http://snapshots.alexvalidator.com/oasis/ - Oasis (Mainnet)    
 http://snapshots.alexvalidator.com/ixo/ - IXO (Mainnet)   
 http://snapshots.alexvalidator.com/regen/ - Regen (Mainnet)   
@@ -30,8 +29,7 @@ https://mercury-nodes.net/kichain-snaps/ - Kichain (Mainnet)
 [Sentinel snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sentinel.md)  
 [Desmos snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Desmos.md)   
 [Oasis snapshot instruction](https://github.com/Bambarello/cosmos-snapshots/blob/main/Oasis.md)  
-[Stargaze snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Stargaze.md)  
-[Osmosis snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Osmosis.md)  
+[Stargaze snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Stargaze.md)    
 [Kichain snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/kichain.md)  
 [IXO snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/ixo.md)  
 [Sifchain snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/sifchain.md)  
