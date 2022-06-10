@@ -16,11 +16,15 @@ http://snapshots.alexvalidator.com/ixo/ - IXO (Mainnet)
 http://snapshots.alexvalidator.com/regen/ - Regen (Mainnet)   
 http://snapshots.alexvalidator.com/stargaze/ - Stargaze (Mainnet)   
 https://snapshots.stakecraft.com/ - Juno (Mainnet)  
-https://cosmos-snap.staketab.com/ixo - IXO (Mainnet)  
-https://cosmos-snap.staketab.com/stargaze - Stargaze (Mainnet)  
-https://cosmos-snap.staketab.com/sifchain - Sifchain (Betanet)  
-https://cosmos-snap.staketab.com/comdex - Comdex (Mainnet)  
-https://cosmos-snap.staketab.com/axelar - Axelar (Mainnet)  
+https://services.staketab.com/snapshots/axelar - Axelar (Mainnet)  
+https://services.staketab.com/snapshots/stargaze - Stargaze (Mainnet)  
+https://services.staketab.com/snapshots/sifchain - Sifchain (Betanet)  
+https://services.staketab.com/snapshots/desmos - Desmos (Mainnet)  
+https://services.staketab.com/snapshots/evmos - Evmos (Mainnet)  
+https://services.staketab.com/snapshots/gravity - Gravity Bridge (Mainnet)  
+https://services.staketab.com/snapshots/omniflix - Omniflix (Mainnet)  
+https://services.staketab.com/snapshots/umee - Umee (Mainnet)  
+https://services.staketab.com/snapshots/cosmos - Cosmos (Mainnet)  
 https://mercury-nodes.net/kichain-snaps/ - Kichain (Mainnet)  
 
 [Akash snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Akash.md)  
@@ -30,12 +34,6 @@ https://mercury-nodes.net/kichain-snaps/ - Kichain (Mainnet)
 [Desmos snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Desmos.md)   
 [Oasis snapshot instruction](https://github.com/Bambarello/cosmos-snapshots/blob/main/Oasis.md)  
 [Stargaze snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Stargaze.md)    
-[Kichain snapshot instruction](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/kichain.md)  
-[IXO snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/ixo.md)  
-[Sifchain snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/sifchain.md)  
-[Stargaze snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/stargaze.md)  
-[Comdex snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/comdex.md)  
-[Axelar snapshot instruction(Staketab)](https://github.com/staketab/nginx-cosmos-snap/blob/main/docs/axelar.md)  
 
 ## MIRRORS  
 http://rpc01-skynet.paullovette.com/ - provided by Paul Lovette  
@@ -48,7 +46,19 @@ http://snapshots.alexvalidator.com/  - provided by Alex [(Bambarello) Validator]
 - IXO  
 - Sentinel  
   
-https://cosmos-snap.staketab.com/  - provided by Staketab  
+https://services.staketab.com/  - provided by [Staketab](https://github.com/Staketab)  
+- Axelar
+- Axelar testnet 1
+- Axelar testnet 2
+- Cosmos
+- Desmos
+- Evmos
+- Gravity bridge
+- Omniflix
+- Osmosis
+- Sifchain
+- Stargaze
+- Umee
   
 https://snapshots.stake2.me/ - provided by [Danil Ushakov](https://github.com/k0kk0k)  
 - Agoric
