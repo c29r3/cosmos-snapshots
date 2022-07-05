@@ -1,7 +1,7 @@
 #!/bin/bash
 CHAIN_ID="sifchain"
-SNAP_PATH="$HOME/sifchain/sifchain"
-LOG_PATH="$HOME/sifchain/sifchain_log.txt"
+SNAP_PATH="$HOME/snapshots/sifchain"
+LOG_PATH="$HOME/snapshots/sifchain/sifchain_log.txt"
 DATA_PATH="$HOME/.sifnoded/data/"
 SERVICE_NAME="sifchain.service"
 RPC_ADDRESS="http://localhost:27657"
