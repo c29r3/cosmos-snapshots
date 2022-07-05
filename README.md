@@ -1,10 +1,6 @@
 # cosmos-snapshots  
 List of snapshots:   
 http://135.181.60.250/      - Akash Network (Mainnet) truncated via statesync  
-http://135.181.181.121/akash/  
-http://135.181.181.119/akash/  
-http://135.181.181.123/akash  
-http://135.181.181.122/akash  
 
 http://135.181.60.250:8081/ - Sifchain (Betanet) truncated via statesync  
 http://135.181.60.250:8083/ - Sentinel (Mainnet truncated via statesync   
