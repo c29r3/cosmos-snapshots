@@ -1,7 +1,7 @@
 #!/bin/bash
 CHAIN_ID="desmos-mainnet"
-SNAP_PATH="$HOME/desmos/desmos"
-LOG_PATH="$HOME/desmos/desmos_log.txt"
+SNAP_PATH="$HOME/snapshots/desmos"
+LOG_PATH="$HOME/snapshots/desmos_log.txt"
 DATA_PATH="$HOME/.desmos/data/"
 SERVICE_NAME="desmos.service"
 RPC_ADDRESS="http://135.181.60.250:26557"
