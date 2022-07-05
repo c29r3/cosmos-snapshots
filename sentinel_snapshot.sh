@@ -1,7 +1,7 @@
 #!/bin/bash
 CHAIN_ID="sentinelhub-2"
-SNAP_PATH="$HOME/sentinel/sentinel"
-LOG_PATH="$HOME/sentinel/sentinel_log.txt"
+SNAP_PATH="$HOME/snapshots/sentinel"
+LOG_PATH="$HOME/snapshots/sentinel_log.txt"
 DATA_PATH="$HOME/.sentinelhub/data/"
 SERVICE_NAME="sentinel.service"
 RPC_ADDRESS="http://localhost:29657"
