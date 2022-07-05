@@ -1,45 +1,33 @@
 # cosmos-snapshots  
 List of snapshots:   
-http://135.181.60.250/      - Akash Network (Mainnet) truncated via statesync  
+https://snapshots.c29r3.xyz:
+- [Akash mainnet](https://github.com/c29r3/cosmos-snapshots/blob/main/instructions/Akash.md)
+- [Sifchain mainnet](https://github.com/c29r3/cosmos-snapshots/blob/main/instructions/Sifchain.md)
+- [Sentinel mainnet](https://github.com/c29r3/cosmos-snapshots/blob/main/instructions/Sentinel.md)
+- [Desmos mainnet](https://github.com/c29r3/cosmos-snapshots/blob/main/instructions/Desmos.md)
+- [Stargaze mainnet](https://github.com/c29r3/cosmos-snapshots/blob/main/instructions/Stargaze.md)
+- [Agoric mainnet](https://github.com/c29r3/cosmos-snapshots/blob/main/instructions/Agoric.md) 
 
-http://135.181.60.250:8081/ - Sifchain (Betanet) truncated via statesync  
-http://135.181.60.250:8083/ - Sentinel (Mainnet truncated via statesync   
-http://135.181.60.250:8084/ - Desmos (Mainnet) truncated via statesync  
-http://135.181.60.250:8086/ - Stargaze (Mainnet) truncated via statesync  
-http://135.181.60.250:8087/ - Agoric (Mainnet) truncated via statesync   
-http://snapshots.alexvalidator.com/oasis/ - Oasis (Mainnet)    
-http://snapshots.alexvalidator.com/ixo/ - IXO (Mainnet)   
-http://snapshots.alexvalidator.com/regen/ - Regen (Mainnet)   
-http://snapshots.alexvalidator.com/stargaze/ - Stargaze (Mainnet)   
-https://snapshots.stakecraft.com/ - Juno (Mainnet)  
-https://services.staketab.com/snapshots/axelar - Axelar (Mainnet)  
-https://services.staketab.com/snapshots/stargaze - Stargaze (Mainnet)  
-https://services.staketab.com/snapshots/sifchain - Sifchain (Betanet)  
-https://services.staketab.com/snapshots/desmos - Desmos (Mainnet)  
-https://services.staketab.com/snapshots/evmos - Evmos (Mainnet)  
-https://services.staketab.com/snapshots/gravity - Gravity Bridge (Mainnet)  
-https://services.staketab.com/snapshots/omniflix - Omniflix (Mainnet)  
-https://services.staketab.com/snapshots/umee - Umee (Mainnet)  
-https://services.staketab.com/snapshots/cosmos - Cosmos (Mainnet)  
-https://mercury-nodes.net/kichain-snaps/ - Kichain (Mainnet)  
-
-[Akash snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Akash.md)  
-[Agoric snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Agoric.md)  
-[Sifchain snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sifchain.md)  
-[Sentinel snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Sentinel.md)  
-[Desmos snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Desmos.md)   
-[Oasis snapshot instruction](https://github.com/Bambarello/cosmos-snapshots/blob/main/Oasis.md)  
-[Stargaze snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Stargaze.md)    
 
 ## MIRRORS  
 http://162.255.116.68/snapshots/ - privded by Min (Min#6706)  
 https://snapshots.stakecraft.com/    - provided by Alex Novy  
-http://snapshots.alexvalidator.com/  - provided by Alex [(Bambarello) Validator](https://github.com/Bambarello)  
-- Oasis
-- Stargaze
-- Regen
-- IXO  
-- Sentinel  
+
+http://snapshots.alexvalidator.com - Provided by [Bambarello](https://github.com/Bambarello)
+- [Oasis mainnet](https://github.com/Bambarello/cosmos-snapshots/blob/main/Oasis.md)   
+- IXO (Mainnet)   
+- Regen (Mainnet)  
+- Stargaze (Mainnet)   
+- Juno (Mainnet)  
+- Axelar (Mainnet)  
+- Sifchain (Betanet)  
+- Desmos (Mainnet)  
+- Evmos (Mainnet)  
+- Gravity Bridge (Mainnet)  
+- Omniflix (Mainnet)  
+- Umee (Mainnet)  
+- Cosmos (Mainnet)  
+- Kichain (Mainnet) 
   
 https://services.staketab.com/  - provided by [Staketab](https://github.com/Staketab)  
 - Axelar
