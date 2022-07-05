@@ -1,7 +1,7 @@
 #!/bin/bash
 CHAIN_ID="osmosis-1"
-SNAP_PATH="$HOME/osmosis/osmosis"
-LOG_PATH="$HOME/osmosis/osmosis_log.txt"
+SNAP_PATH="$HOME/snapshots/osmosis"
+LOG_PATH="$HOME/snapshots/osmosis_log.txt"
 DATA_PATH="$HOME/.osmosisd/data/"
 SERVICE_NAME="osmosis.service"
 RPC_ADDRESS="http://135.181.60.250:36557"
