@@ -110,7 +110,7 @@ Clone github repo
 `git clone https://github.com/c29r3/cosmos-snapshots.git && cd cosmos-snapshots`  
 
 Create folder for snapshots  
-`mkdir $HOME/akash`
+`mkdir $HOME/snapshots/`
 
 Start Nginx via docker  
 ```bash
@@ -118,7 +118,7 @@ cd $HOME; \
 docker run --name nginx \
 --restart always \
 -v $(pwd)/default.conf:/etc/nginx/conf.d/default.conf \
--v $(pwd)/akash/:/root/ \
+-v $(pwd)/snapshots/:/root/ \
 -p 80:80 \
 -d nginx
 ```
@@ -126,8 +126,8 @@ docker run --name nginx \
 Fill in the variables in the file `akash_snapshot.sh`  
 ```
 CHAIN_ID="akashnet-2"
-SNAP_PATH="$HOME/akash/akash"
-LOG_PATH="$HOME/akash/akash_log.txt"
+SNAP_PATH="$HOME/snapshots/akash"
+LOG_PATH="$HOME/snapshots/akash_log.txt"
 DATA_PATH="$HOME/.akash/data/"
 SERVICE_NAME="akash.service"
 ```
