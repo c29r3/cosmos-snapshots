@@ -1,7 +1,7 @@
 #!/bin/bash
 CHAIN_ID="stargaze-1"
 SNAP_PATH="$HOME/snapshots/stargaze"
-LOG_PATH="$HOME/stargaze/snapshots/stargaze_log.txt"
+LOG_PATH="$HOME/snapshots/stargaze/stargaze_log.txt"
 DATA_PATH="$HOME/.starsd/data/"
 SERVICE_NAME="starsd.service"
 RPC_ADDRESS="https://stargaze.c29r3.xyz/rpc"
