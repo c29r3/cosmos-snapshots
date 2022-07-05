@@ -32,7 +32,6 @@ https://mercury-nodes.net/kichain-snaps/ - Kichain (Mainnet)
 [Stargaze snapshot instruction](https://github.com/c29r3/cosmos-snapshots/blob/main/Stargaze.md)    
 
 ## MIRRORS  
-http://rpc01-skynet.paullovette.com/ - provided by Paul Lovette  
 http://162.255.116.68/snapshots/ - privded by Min (Min#6706)  
 https://snapshots.stakecraft.com/    - provided by Alex Novy  
 http://snapshots.alexvalidator.com/  - provided by Alex [(Bambarello) Validator](https://github.com/Bambarello)  
