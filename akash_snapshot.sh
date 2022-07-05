@@ -1,6 +1,6 @@
 #!/bin/bash
 CHAIN_ID="akashnet-2"
-SNAP_PATH="$HOME/akash/akash"
+SNAP_PATH="$HOME/snapshots/akash"
 LOG_PATH="$HOME/akash/akash_log.txt"
 DATA_PATH="$HOME/.akash/data/"
 SERVICE_NAME="akash.service"
