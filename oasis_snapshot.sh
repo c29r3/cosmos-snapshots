@@ -1,7 +1,7 @@
 #!/bin/bash
 CHAIN_ID="oasis-2"
-SNAP_PATH="$HOME/oasis/"
-LOG_PATH="$HOME/oasis/oasis_log.txt"
+SNAP_PATH="$HOME/snapshots/oasis"
+LOG_PATH="$HOME/snapshots/oasis_log.txt"
 DATA_PATH="/home/oasismain/oasis/serverdir/node/tendermint/"
 SERVICE_NAME="oasis.service"
 #RPC_ADDRESS="http://XXX:36557"
