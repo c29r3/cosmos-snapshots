@@ -115,7 +115,7 @@ Create folder for snapshots
 Start Nginx via docker  
 ```bash
 cd $HOME; \
-docker run --name nginx \
+docker run --name snapshots \
 --restart always \
 -v $(pwd)/default.conf:/etc/nginx/conf.d/default.conf \
 -v $(pwd)/snapshots/:/root/ \
