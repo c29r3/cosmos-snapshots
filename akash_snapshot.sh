@@ -4,7 +4,7 @@ SNAP_PATH="$HOME/akash/akash"
 LOG_PATH="$HOME/akash/akash_log.txt"
 DATA_PATH="$HOME/.akash/data/"
 SERVICE_NAME="akash.service"
-RPC_ADDRESS="http://localhost:26657"
+RPC_ADDRESS="http://localhost:28957"
 SNAP_NAME=$(echo "${CHAIN_ID}_$(date '+%Y-%m-%d').tar")
 OLD_SNAP=$(ls ${SNAP_PATH} | egrep -o "${CHAIN_ID}.*tar")
 
