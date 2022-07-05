@@ -1,7 +1,7 @@
 #!/bin/bash
 CHAIN_ID="agoric-3"
-SNAP_PATH="/root/agoric/agoric"
-LOG_PATH="/root/agoric/agoric_log.txt"
+SNAP_PATH="/root/snapshots/agoric"
+LOG_PATH="/root/snapshots/agoric_log.txt"
 DATA_PATH="/root/.agoric/data/"
 SERVICE_NAME="agoricd.service"
 RPC_ADDRESS="http://localhost:22657"
