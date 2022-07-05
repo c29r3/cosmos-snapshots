@@ -11,7 +11,7 @@ cd ~/.akash/data
 
 Download snapshot  
 ```bash
-RANDOM_IP=$(curl -s https://gist.githubusercontent.com/c29r3/1a8a951008b19aaa424d63d15cf528d8/raw/7387f361e24b82b65d7877dc282b553aadfdcaec/akash-snapshot-mirrors | shuf | head -n1); \
+RANDOM_IP=$(curl -s https://gist.githubusercontent.com/c29r3/1a8a951008b19aaa424d63d15cf528d8/raw/48f9bf0456df5b183677009995805e24b04e4ccd/akash-snapshot-mirrors | shuf | head -n1); \
 SNAP_NAME=$(curl -s http://$RANDOM_IP/akash/ | egrep -o ">akashnet-2.*tar" | tr -d ">"); \
 wget -O - http://$RANDOM_IP/akash/${SNAP_NAME} | tar xf -
 ```
