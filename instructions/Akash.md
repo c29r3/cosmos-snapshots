@@ -24,6 +24,12 @@ journalctl -u akash.service -f --no-hostname
 
 One line command  
 ```
-sudo systemctl stop akash.service; rm -rf ~/.akash/data; mkdir -p ~/.akash/data; cd ~/.akash/data; SNAP_NAME=$(curl -s http://216.158.230.250:81/akash/ | egrep -o ">akashnet-2.*tar" | tr -d ">"); \
-wget -O - http://216.158.230.250:81/akash/${SNAP_NAME} | tar xf -; sudo systemctl start akash.service; sudo journalctl -u akash.service -f --no-hostname
+sudo systemctl stop akash.service; \
+rm -rf ~/.akash/data; \
+mkdir -p ~/.akash/data; \
+cd ~/.akash/data; \
+SNAP_NAME=$(curl -s http://216.158.230.250:81/akash/ | egrep -o ">akashnet-2.*tar" | tr -d ">"); \
+wget -O - http://216.158.230.250:81/akash/${SNAP_NAME} | tar xf -; \
+sudo systemctl start akash.service; \
+sudo journalctl -u akash.service -f --no-hostname
 ```
