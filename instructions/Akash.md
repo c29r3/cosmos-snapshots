@@ -28,8 +28,8 @@ sudo systemctl stop akash.service; \
 rm -rf ~/.akash/data; \
 mkdir -p ~/.akash/data; \
 cd ~/.akash/data; \
-SNAP_NAME=$(curl -s http://snapshots.c29r3.xyz/akash/ | egrep -o ">akashnet-2.*tar" | tr -d ">"); \
-wget -O - http://snapshots.c29r3.xyz/akash/${SNAP_NAME} | tar xf -; \
+SNAP_NAME=$(curl -s https://snapshots.c29r3.xyz/akash/ | egrep -o ">akashnet-2.*tar" | tr -d ">"); \
+wget -O - https://snapshots.c29r3.xyz/akash/${SNAP_NAME} | tar xf -; \
 sudo systemctl start akash.service; \
 sudo journalctl -u akash.service -f --no-hostname
 ```
