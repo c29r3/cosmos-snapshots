@@ -10,6 +10,11 @@
 # http://akash.c29r3.xyz:80/rpc
 ###
 
+###
+# akash statesync cron job
+# 0 5 * * 1 /bin/bash -c '/home/user/akash_statesync.sh'
+###
+
 AKASH_PATH="$HOME/.akash"
 SERVICE_NAME="akash"
 
