@@ -40,7 +40,7 @@ do
       rm -f ${BIN_NAME}
       sleep 60
     fi
-    rm -f rm /tmp/${BIN_NAME}*zip*
+    rm -f /tmp/${BIN_NAME}*zip*
   fi
   sleep 10
 done
