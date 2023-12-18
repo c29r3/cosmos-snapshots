@@ -15,28 +15,26 @@
 # 0 5 * * 1 /bin/bash -c '/home/user/akash_statesync.sh'
 ###
 
-AKASH_PATH="$HOME/.akash"
-SERVICE_NAME="akash"
-
-sudo systemctl stop ${SERVICE_NAME}
-
+BINARY_NAME="akash"
+SERVICE_FILE_NAME="akash.service"
+PROJECT_PATH="$HOME/.akash"
 SNAP_RPC="https://akash-rpc.polkachu.com:443"
-# SNAP_RPC="http://node.d3akash.cloud:26657"
 
+sudo systemctl stop ${SERVICE_FILE_NAME}
 
 LATEST_HEIGHT=$(curl -s $SNAP_RPC/block | jq -r .result.block.header.height); \
 BLOCK_HEIGHT=$((LATEST_HEIGHT - 2000)); \
 TRUST_HASH=$(curl -s "$SNAP_RPC/block?height=$BLOCK_HEIGHT" | jq -r .result.block_id.hash)
 
 sed -i.bak -E "s|^(enable[[:space:]]+=[[:space:]]+).*$|\1true| ; \
-#s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
+s|^(rpc_servers[[:space:]]+=[[:space:]]+).*$|\1\"$SNAP_RPC,$SNAP_RPC\"| ; \
 s|^(trust_height[[:space:]]+=[[:space:]]+).*$|\1$BLOCK_HEIGHT| ; \
-s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" ${AKASH_PATH}/config/config.toml
+s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" ${PROJECT_PATH}/config/config.toml
 
-sudo systemctl stop ${SERVICE_NAME}
+sudo systemctl stop ${SERVICE_FILE_NAME}
 
-akash tendermint unsafe-reset-all --home ${AKASH_PATH} --keep-addr-book
+akash tendermint unsafe-reset-all --home ${PROJECT_PATH} --keep-addr-book
 
 echo Restart
-sudo systemctl restart ${SERVICE_NAME}
-# sudo journalctl -u ${SERVICE_NAME} -f --no-hostname | grep statesync
+sudo systemctl restart ${SERVICE_FILE_NAME}
+sudo journalctl -u ${SERVICE_FILE_NAME} -f --no-hostname | grep statesync
