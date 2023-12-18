@@ -33,7 +33,7 @@ s|^(trust_hash[[:space:]]+=[[:space:]]+).*$|\1\"$TRUST_HASH\"|" ${PROJECT_PATH}/
 
 sudo systemctl stop ${SERVICE_FILE_NAME}
 
-akash tendermint unsafe-reset-all --home ${PROJECT_PATH} --keep-addr-book
+${BINARY_NAME} tendermint unsafe-reset-all --home ${PROJECT_PATH} --keep-addr-book
 
 echo Restart
 sudo systemctl restart ${SERVICE_FILE_NAME}
